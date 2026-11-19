@@ -1,0 +1,19 @@
+{
+  "name": "gu-quiz",
+  "version": "1.0.0",
+  "private": true,
+  "description": "GU QUIZ — Medical Learning Platform",
+  "type": "module",
+  "scripts": {
+    "build:data": "node scripts/build-questions.js",
+    "dev": "vite",
+    "build": "node scripts/build-questions.js && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+}
